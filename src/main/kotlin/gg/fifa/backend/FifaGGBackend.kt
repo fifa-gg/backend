@@ -1,11 +1,11 @@
-package gg.fifa.backend.backend
+package gg.fifa.backend
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class BackendApplication
+class FifaGGBackend
 
 fun main(args: Array<String>) {
-	runApplication<BackendApplication>(*args)
+	runApplication<FifaGGBackend>(*args)
 }
